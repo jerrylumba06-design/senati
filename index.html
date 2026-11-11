@@ -11,10 +11,14 @@
     body {
       min-height: 100vh; display: grid; place-items: center; padding: 24px;
       position: relative; overflow: hidden; isolation: isolate; color: #fff1f8;
-      background:
-        radial-gradient(circle at 15% 18%, rgba(255,126,200,.42), transparent 28%),
-        radial-gradient(circle at 85% 82%, rgba(168,85,247,.38), transparent 30%),
-        linear-gradient(135deg, #3b0828 0%, #94105a 48%, #e94b9d 100%);
+      background-color: #120814;
+      background-image:
+        linear-gradient(rgba(10, 4, 12, .38), rgba(10, 4, 12, .52)),
+        url("https://thumbs.dreamstime.com/b/peru-flag-symbol-tech-cyber-data-concept-editable-strokes-collection-bright-neon-design-468426513.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
     }
     body::before {
       content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
